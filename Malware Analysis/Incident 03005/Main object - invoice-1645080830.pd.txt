@@ -1,0 +1,17 @@
+Main object - invoice-1645080830.pdf (1).js
+ sha256 invoice-1645080830.pdf (1).js 4025738193087dd7bbde1ed48389586b5764480f6c4a16ddf483070be8c92add
+DNS requests
+ domain decjan2026.blogspot.com
+ domain hotdecjanniygga.blogspot.com
+ domain settings-win.data.microsoft.com
+Connections
+ ip 142.250.186.97
+ ip 74.179.77.204
+HTTP/HTTPS requests
+ url https://decjan2026.blogspot.com/////////nipoli.pdf
+ url https://09c1d5c3-1a6e-4c05-8e4e-eff75c6b5dd6.usrfiles.com/ugd/09c1d5_7d83c059660a41b29cbdfc4358b0513e.txt
+ url https://login.live.com/RST2.srf
+ url https://hotdecjanniygga.blogspot.com///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Kinder.pdf
+ url https://09c1d5c3-1a6e-4c05-8e4e-eff75c6b5dd6.usrfiles.com/ugd/09c1d5_5349c17edee343f09cdc0c2480e1e17f.txt
+ url http://www.microsoft.com/pkiops/crl/Microsoft%20ECC%20Product%20Root%20Certificate%20Authority%202018.crl
+ url http://www.microsoft.com/pkiops/crl/Microsoft%20ECC%20Update%20Secure%20Server%20CA%202.1.crl
