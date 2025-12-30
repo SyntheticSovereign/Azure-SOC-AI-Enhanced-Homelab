@@ -24,7 +24,7 @@ The homelab simulates a small enterprise environment hosted in Azure:
 - Microsoft Sentinel as the central SIEM/SOAR platform
 - Microsoft Defender telemetry for endpoint and email security signals
 - ANY.RUN for interactive malware analysis
-- Centralised logging and automated incident workflows
+- Centralised logging and automated incident workflows on seperate workspaces
 
 High-level flow:
 **Phishing email → user interaction → identity / endpoint activity → SIEM detection → enrichment → containment → lessons learned**
@@ -68,18 +68,25 @@ Architecture and data-flow diagrams are provided in the `architecture/` director
 ## Repository Structure
 
 ```text
-azure-soc-homelab/
+Azure-SOC-AI-Enhanced-Homelab/
 ├── README.md
-├── architecture/                 # Architecture and data-flow diagrams
-├── playbooks/                    # Incident response playbooks
-├── detections/                   # Sentinel analytics rules and hunting queries
-├── automation/                   # Sentinel SOAR playbooks (Logic Apps)
-├── malware-analysis/             # ANY.RUN analysis summaries and IOCs
-├── endpoint-telemetry/           # Sysmon configs and Velociraptor artifacts
-├── case-studies/                 # Full incident case files including malicious files
-├── dashboards/                   # Sentinel workbook screenshots
-├── essential-eight-mapping/      # ACSC Essential Eight alignment
-└── ai-enhancements/              # AI-assisted SOC workflows
+├── LICENSE
+├── AI Enhancements/              # AI-assisted SOC workflows (summaries, triage aids, detection drafting)
+├── Architecture/                 # Architecture and data-flow diagrams
+├── Automation/ SOAR/             # Sentinel automation rules + Logic Apps playbooks (exports, screenshots)
+├── Case Studies/                 # Full incident case files (end-to-end investigations)
+├── Cloud Audit Events/           # Cloud audit/event logs and references used in investigations
+├── DFIR/                         # DFIR tooling outputs (e.g., Velociraptor collections, memory/disk triage notes)
+├── Dashboards/                   # Sentinel workbook screenshots and dashboards
+├── Defender For Endpoint/        # MDE setup notes, alerts, advanced hunting, telemetry examples
+├── Endpoint Telemetry/           # Sysmon configs, Windows event logging, endpoint data pipelines
+├── Essential Eight Mapping/      # ACSC Essential Eight alignment notes and mappings
+├── Exposure Management/          # Attack surface / posture findings and remediation tracking
+├── MITRE ATT&CK/                 # Technique mapping used for detections and case studies
+├── Malware Analysis/             # ANY.RUN analysis summaries, IOC extraction, triage notes
+├── Playbooks/                    # Incident response playbooks (phishing + related runbooks)
+├── Sentinel/                     # KQL queries, analytics rules, watchlists, workbook content
+└── Vulnerability Management/     # Scanning outputs, prioritisation, remediation documentation
 ```
 Each directory contains real artifacts used in detection engineering, investigation, automation, and incident response within the Azure SOC homelab.
 Note: Live malware files are uploaded and encrypted for later triage use cases. If you want specific access to them, please email me, as unauthorized use can lead to system compromise which you would be liable for!
