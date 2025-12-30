@@ -1,0 +1,150 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2016-06-01/Microsoft.Logic.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "connections": {
+      "defaultValue": {},
+      "type": "Object"
+    },
+    "azureOpenAIEndpoint": {
+      "type": "String",
+      "metadata": {
+        "description": "Base endpoint for your Azure OpenAI resource (e.g., https://contoso-openai.openai.azure.com)."
+      }
+    },
+    "azureOpenAIDeployment": {
+      "type": "String",
+      "metadata": {
+        "description": "Model deployment name (e.g., gpt-4o-mini or gpt-4o)."
+      }
+    },
+    "azureOpenAIApiKey": {
+      "type": "String",
+      "metadata": {
+        "description": "API key for the Azure OpenAI deployment."
+      }
+    }
+  },
+  "triggers": {
+    "When_a_response_to_an_Azure_Sentinel_alert_is_triggered": {
+      "recurrence": {
+        "frequency": "Minute",
+        "interval": 3
+      },
+      "splitOn": "@triggerBody()?['value']",
+      "type": "ApiConnection",
+      "inputs": {
+        "host": {
+          "connection": {
+            "name": "@parameters('connections')['azuresentinel']['connectionId']"
+          }
+        },
+        "method": "get",
+        "path": "/Incidents/WhenAnAzureSentinelIncidentIsCreatedOrUpdated",
+        "queries": {
+          "x-ms-trigger-conditions": [
+            "@greater(item()?['properties']?['lastActivityTimeUtc'], addMinutes(utcNow(), -10))"
+          ]
+        }
+      }
+    }
+  },
+  "actions": {
+    "Build_Incident_Context": {
+      "type": "Compose",
+      "inputs": {
+        "incidentId": "@triggerBody()?['name']",
+        "title": "@triggerBody()?['properties']?['title']",
+        "severity": "@triggerBody()?['properties']?['severity']",
+        "status": "@triggerBody()?['properties']?['status']",
+        "owner": "@triggerBody()?['properties']?['owner']?['assignedTo']",
+        "description": "@triggerBody()?['properties']?['description']",
+        "labels": "@triggerBody()?['properties']?['labels']",
+        "additionalData": "@triggerBody()?['properties']?['additionalData']"
+      },
+      "runAfter": {}
+    },
+    "Call_Azure_OpenAI": {
+      "runAfter": {
+        "Build_Incident_Context": [
+          "Succeeded"
+        ]
+      },
+      "type": "Http",
+      "inputs": {
+        "method": "POST",
+        "uri": "@{concat(parameters('azureOpenAIEndpoint'), '/openai/deployments/', parameters('azureOpenAIDeployment'), '/chat/completions?api-version=2024-02-15-preview')}",
+        "headers": {
+          "api-key": "@parameters('azureOpenAIApiKey')",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are a Tier 2 SOC analyst writing a concise incident summary. Only use facts from the provided incident payload. Cite each statement with the originating field name (e.g., properties.title). If data is missing, say 'unknown' instead of guessing. Respond in JSON with fields: summary, impact, key_events (list), confirmed_iocs (list), uncertainties (list), next_actions (list)."
+            },
+            {
+              "role": "user",
+              "content": "INCIDENT PAYLOAD: @{outputs('Build_Incident_Context')}"
+            }
+          ],
+          "temperature": 0.2,
+          "max_tokens": 450,
+          "response_format": {
+            "type": "json_object"
+          }
+        }
+      }
+    },
+    "Check_status": {
+      "type": "If",
+      "expression": {
+        "and": [
+          {
+            "equals": [
+              "@outputs('Call_Azure_OpenAI')['statusCode']",
+              200
+            ]
+          }
+        ]
+      },
+      "actions": {
+        "Add_comment_to_incident": {
+          "type": "ApiConnection",
+          "inputs": {
+            "host": {
+              "connection": {
+                "name": "@parameters('connections')['azuresentinel']['connectionId']"
+              }
+            },
+            "method": "post",
+            "path": "/Incidents/@{encodeURIComponent(triggerBody()?['name'])}/Comments",
+            "body": {
+              "properties": {
+                "message": "AI summary: @{body('Call_Azure_OpenAI')?['choices']?[0]?['message']?['content']}\nReviewed by: <add analyst name>",
+                "author": "LogicApp"
+              }
+            }
+          },
+          "runAfter": {}
+        }
+      },
+      "else": {
+        "actions": {
+          "Post_failure_to_Log": {
+            "type": "Compose",
+            "inputs": "Azure OpenAI call failed; inspect run history for details.",
+            "runAfter": {}
+          }
+        }
+      },
+      "runAfter": {
+        "Call_Azure_OpenAI": [
+          "Succeeded"
+        ]
+      }
+    }
+  },
+  "outputs": {}
+}

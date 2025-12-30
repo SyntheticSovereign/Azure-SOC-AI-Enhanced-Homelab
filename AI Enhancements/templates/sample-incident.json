@@ -1,0 +1,28 @@
+{
+  "name": "inc-2024-0421-001",
+  "properties": {
+    "title": "Suspicious PowerShell and OAuth Consent",
+    "severity": "High",
+    "status": "Active",
+    "owner": {
+      "assignedTo": "tier2@contoso.com"
+    },
+    "description": "Multiple alerts mapped to possible initial access and persistence via OAuth.",
+    "labels": [
+      { "name": "Campaign", "value": "Phish-April" },
+      { "name": "Tactic", "value": "InitialAccess" }
+    ],
+    "additionalData": {
+      "alertIds": [
+        "detection-1234",
+        "detection-5678"
+      ],
+      "entities": [
+        { "type": "account", "name": "alex.jordan@contoso.com" },
+        { "type": "host", "name": "WIN10-WS-22" },
+        { "type": "ip", "address": "185.220.101.34" },
+        { "type": "url", "address": "https://contoso-files.example/dropper.exe" }
+      ]
+    }
+  }
+}
