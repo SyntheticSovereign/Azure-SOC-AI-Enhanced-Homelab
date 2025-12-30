@@ -1,0 +1,50 @@
+Main object - Quarantined Messages.zip
+ sha256 Quarantined Messages.zip f2e8f58ef59e442ddea2b63dc2ea07aa2023a596bf7870016116a716d60bb698
+Dropped file
+ sha256 C:\Users\admin\AppData\Local\Temp\Rar$DIb7504.11772\d13836bc-6cea-be07-cc07-763addb40b4e.eml 7c69c7c3931afc53e19c866e3cafa624a7b6d38bf7e93f2c3fb40994e90f5bf1
+ sha256 images/image68.png 29db6c606d3fe57bf3c0878bf5e32387df8a089d12f9814df4851681658fd286
+ sha256 Elizabeth_ Don’t Forget.doc 99edb26b74a2e17faa0bdc89e008e2a0807ff4505571672f826fd699fd8ce458
+ sha256 [5]SummaryInformation 6c984d4af8ac304cda6d2475df51ff3c1034ea5631a68e6d7c3e2649f79e257e
+ sha256 WordDocument 3716c4fc6831bd77c3f8c1f790be15315b13a0a6ed7e3f27895c5a0739cd86d1
+ sha256 [5]DocumentSummaryInformation 04547da1ac56b1a0c97a2e119468d771ee945a9fd4520e5e741db23f5cdf93ce
+ sha256 C:\Users\admin\AppData\Local\Temp\~DFBD865F652508E96F.TMP 076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560
+ sha256 C:\Users\admin\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations\fb3b0dbfee58fac8.customDestinations-ms b76875c50ef704dbbf7f02c982445971d1bbd61aebe2e4b28ddc58a1d66317d5
+ sha256 C:\Users\admin\AppData\Local\Temp\TCD73DC.tmp\Equations.dotx bc9d45d0419a08840093b0bf4dcf96264c02dfe5bd295cd9b53722e1da02929d
+ sha256 C:\Users\admin\AppData\Local\Temp\TCD73EC.tmp\Text Sidebar (Annual Report Red and Black design).docx 66501b659614227584da04b64f44309544355e3582f59dbca3c9463f67b7e303
+ sha256 C:\Users\admin\AppData\Roaming\Microsoft\Templates\LiveContent\16\Managed\Word Document Building Blocks\1033\TM03998158[[fn=Element]].dotx 68a8fbfbee4c903e17c9421082e839144c205c559afe61338cbdb3af79f0d270
+ sha256 C:\Users\admin\AppData\Roaming\Microsoft\Templates\LiveContent\16\Managed\Word Document Building Blocks\1033\TM03998159[[fn=Insight]].dotx af1fdeea092169bf794cdc290bca20aea07ac7097d0efcab76f783fa38fdacdd
+ sha256 image1.jpeg 93fa329ba9ef75af1d19df29a2b933bc1eb83336703bbdd3cbc60946a9f668b9
+ sha256 Thumbnail.png 73e96ab64e0e27f73b7ce50013cc506c0f23ec8900507a60e897e0b40e4c51eb
+ sha256 Thumbnail.png b54bce69a32e9536352e4bfb245e813df8f32ab5ebdb60ef7792c3896f8b6df2
+ sha256 Thumbnail.png 83e6d576e9235bdb736e624f551a59bb8b2717de5110aa0f9acc16687a9f6dbb
+ sha256 image1.jpeg d3a908b5f028c179eb1e8c3714dbfa3c5c35eb50b7f2d2d72f970931357d1025
+ sha256 image2.jpg d0a662aba7c7d22a1d3fdf0488c221c4002f7ae49b380a6b9f6005ba0aa307c8
+DNS requests
+ domain self.events.data.microsoft.com
+Connections
+ ip 51.104.136.2
+ ip 140.228.29.220
+ ip 4.231.128.59
+ ip 172.211.123.250
+HTTP/HTTPS requests
+ url https://messaging.lifecycle.office.com/getcustommessage16?app=6&ui=en-US&src=BizBar&messagetype=BizBar&hwid=04111-083-043729&ver=16.0.16026&lc=en-US&platform=10%3A0%3A19045%3A2%3A0%3A0%3A256%3A1%3A&productid=%7B1717C1E0-47D3-4899-A6D3-1022DB7415E0%7D%3A00411-10830-43729-AA720%3AOffice%2019%2C%20Office19Professional2019R_Retail%20edition&clientsessionid=%7B93469414-C9D5-4D7A-9669-F6746FD7F6EA%7D&datapropertybag=%7B%22Audience%22%3A%22Production%22%2C%22AudienceGroup%22%3A%22Production%22%2C%22AudienceChannel%22%3A%22CC%22%2C%22Flight%22%3A%22ofsh6c2b1tla1a31%2Cofcrui4yvdulbf31%2Cofhpex3jznepoo31%2Cofpioygfqmufst31%22%7D
+ url https://ecs.office.com/config/v2/Office/outlook/16.0.16026.20146/Production/CC?&Clientid=%7bD61AB268-C26A-439D-BB15-2A0DEDFCA6A3%7d&Application=outlook&Platform=win32&Version=16.0.16026.20146&MsoVersion=16.0.16026.20002&SDX=fa000000002.2.0.1907.31003&SDX=fa000000005.1.0.1909.30011&SDX=fa000000006.1.0.1909.13002&SDX=fa000000008.1.0.1908.16006&SDX=fa000000009.1.0.1908.6002&SDX=fa000000016.1.0.1810.13001&SDX=fa000000029.1.0.1906.25001&SDX=fa000000033.1.0.1908.24001&SDX=wa104381125.1.0.1810.9001&ProcessName=outlook.exe&Audience=Production&Build=ship&Architecture=x64&Language=en-US&SubscriptionLicense=false&PerpetualLicense=2019&LicenseCategory=6&LicenseSKU=Professional2019Retail&OsVersion=10.0&OsBuild=19045&Channel=CC&InstallType=C2R&SessionId=%7b93469414-C9D5-4D7A-9669-F6746FD7F6EA%7d&LabMachine=false
+ url https://login.live.com/RST2.srf
+ url https://settings-win.data.microsoft.com/settings/v3.0/FlightSettings/FSService?ProcessorClockSpeed=3094&IsRetailOS=1&OEMManufacturerName=DELL&FlightingPolicyValue=3&EnablePreviewBuilds=4294967295&OSVersionFull=10.0.19045.4046.amd64fre.vb_release.191206-1406&ManagePreviewBuilds=3&BranchReadinessLevelSource=0&AttrDataVer=186&ProcessorCores=6&BranchReadinessLevelRaw=16&TotalPhysicalRAM=6144&TPMVersion=0&OEMModelNumber=DELL&SystemVolumeTotalCapacity=260281&DeviceId=s%3ABAD99146-31D3-4EC6-A1A4-BE76F32BA5D4&App=FSS&AppVer=10.0&SmartActiveHoursState=1&ActiveHoursStart=20&SecureBootCapable=0&ActiveHoursEnd=13&DeviceFamily=Windows.Desktop
+ url https://settings-win.data.microsoft.com/settings/v3.0/WaaS/FeatureManagement?IsCloudDomainJoined=0&ProcessorIdentifier=AMD64%20Family%2023%20Model%201%20Stepping%202&CurrentBranch=vb_release&AccountFirstChar=&ActivationChannel=Retail&OEMModel=DELL&FlightRing=Retail&AttrDataVer=186&InstallLanguage=en-US&OSUILocale=en-US&WebExperience=1&FlightingBranchName=&ChassisTypeId=1&OSSkuId=48&App=CDM&InstallDate=1661339444&AppVer=&OSArchitecture=AMD64&DefaultUserRegion=244&TelemetryLevel=1&OSVersion=10.0.19045.4046&DeviceFamily=Windows.Desktop
+ url https://ecs.office.com/config/v2/Office/word/16.0.16026.20146/Production/CC?&Clientid=%7bD61AB268-C26A-439D-BB15-2A0DEDFCA6A3%7d&Application=word&Platform=win32&Version=16.0.16026.20146&MsoVersion=16.0.16026.20002&SDX=fa000000002.2.0.1907.31003&SDX=fa000000005.1.0.1909.30011&SDX=fa000000006.1.0.1909.13002&SDX=fa000000008.1.0.1908.16006&SDX=fa000000009.1.0.1908.6002&SDX=fa000000016.1.0.1810.13001&SDX=fa000000029.1.0.1906.25001&SDX=fa000000033.1.0.1908.24001&SDX=wa104381125.1.0.1810.9001&ProcessName=winword.exe&Audience=Production&Build=ship&Architecture=x64&Language=en-US&SubscriptionLicense=false&PerpetualLicense=2019&LicenseCategory=6&LicenseSKU=Professional2019Retail&OsVersion=10.0&OsBuild=19045&Channel=CC&InstallType=C2R&SessionId=%7b67B6DE39-0531-470D-8BD9-573366895C0B%7d&LabMachine=false
+ url https://self.events.data.microsoft.com/OneCollector/1.0/
+ url https://messaging.engagement.office.com/campaignmetadataaggregator?app=0&platform=10&OFC_CHANNEL=CC&OFC_AUDIENCE=Production&OFC_FLIGHTS=ofsh6c2b1tla1a31%3Bofcrui4yvdulbf31%3Bofhpex3jznepoo31%3Bofpioygfqmufst31%3Bofjhlwlmoc1pz531&ver=16.0.16026.20002&hwid=04111-083-043729AED3&OSVersion=10.0.19045&country=US&locale=en-US&OFC_LICENSECATEGORY=6&OFC_LICENSESKU=Professional2019Retail&ContentType=CampaignContent
+ url https://messaging.lifecycle.office.com/getcustommessage16?app=0&ui=en-US&src=BizBar&messagetype=BizBar&hwid=04111-083-043729&ver=16.0.16026&lc=en-US&platform=10%3A0%3A19045%3A2%3A0%3A0%3A256%3A1%3A&productid=%7B1717C1E0-47D3-4899-A6D3-1022DB7415E0%7D%3A00411-10830-43729-AA720%3AOffice%2019%2C%20Office19Professional2019R_Retail%20edition&clientsessionid=%7B67B6DE39-0531-470D-8BD9-573366895C0B%7D&datapropertybag=%7B%22Audience%22%3A%22Production%22%2C%22AudienceGroup%22%3A%22Production%22%2C%22AudienceChannel%22%3A%22CC%22%2C%22Flight%22%3A%22ofsh6c2b1tla1a31%2Cofcrui4yvdulbf31%2Cofhpex3jznepoo31%2Cofpioygfqmufst31%2Cofjhlwlmoc1pz531%22%7D
+ url https://nleditor.osi.office.net/NlEditor/CloudSuggest/V1
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp03328986.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp03328925.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp0309043402.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp03328919.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp02851219.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp03328983.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp0345749101.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp0345751001.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp0403391701.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp0345748501.cab
+ url https://binaries.templates.cdn.office.net/support/templates/en-us/tp0403391901.cab
