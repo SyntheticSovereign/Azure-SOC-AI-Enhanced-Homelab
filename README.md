@@ -76,6 +76,7 @@ Azure-SOC-AI-Enhanced-Homelab/
 ├── Automation/                   # Sentinel automation rules + Logic Apps playbooks (exports, screenshots)
 ├── Case Studies/                 # Full incident case files (end-to-end investigations)
 ├── Cloud Audit Events/           # Cloud audit/event logs and references used in investigations
+├── Cyber-risk-management/        # Risk and compliance assessment reports of companies with adherence to ISO/COBIT, compliance notes, asset risk assessment
 ├── DFIR/                         # DFIR tooling outputs (e.g., Velociraptor collections, memory/disk triage notes)
 ├── Dashboards/                   # Sentinel workbook screenshots and dashboards
 ├── Defender For Endpoint/        # MDE setup notes, alerts, advanced hunting, telemetry examples
