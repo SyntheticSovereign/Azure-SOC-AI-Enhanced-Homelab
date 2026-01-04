@@ -1,5 +1,5 @@
 # Azure-SOC-AI-Enhanced-Homelab
-
+<img width="1536" height="1024" alt="Homelab Image" src="https://github.com/user-attachments/assets/e274f287-33a9-480c-9a45-b5887c1b17e0" />
 
 ## Overview
 This repository documents a cloud-based SOC homelab built on **Microsoft Azure** to detect, investigate, and respond to a range of cyber attacks and demonstrates end-to-end SOC capability, combining **SIEM, SOAR, endpoint telemetry, malware analysis, and incident response playbooks** aligned to how a real Australian SOC operates.
@@ -73,7 +73,7 @@ Azure-SOC-AI-Enhanced-Homelab/
 ├── LICENSE
 ├── AI Enhancements/              # AI-assisted SOC workflows (summaries, triage aids, detection drafting)
 ├── Architecture/                 # Architecture and data-flow diagrams
-├── Automation/ SOAR/             # Sentinel automation rules + Logic Apps playbooks (exports, screenshots)
+├── Automation/                   # Sentinel automation rules + Logic Apps playbooks (exports, screenshots)
 ├── Case Studies/                 # Full incident case files (end-to-end investigations)
 ├── Cloud Audit Events/           # Cloud audit/event logs and references used in investigations
 ├── DFIR/                         # DFIR tooling outputs (e.g., Velociraptor collections, memory/disk triage notes)
