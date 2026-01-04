@@ -1,0 +1,351 @@
+Asset ID,Service,Asset Name,Category,Environment,Owner,Data Classification,CIA_Confidentiality (1-5),CIA_Integrity (1-5),CIA_Availability (1-5),Criticality (1-3),Dependencies,Primary Location,Vendor/Platform,Authentication,Notes
+A0001,Identity Platform,Identity Platform Data Set 1,Data Set,Prod,IT Ops,Public,3,3,5,1,N/A,EU-West,Azure,API Key,Sample placeholder row; replace with real asset details.
+A0002,Email,Email Identity 2,Identity,Prod,IT Ops,Confidential,3,3,1,3,On-prem,Factory,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0003,Identity Platform,Identity Platform Application 3,Application,Dev,Data Platform,Restricted,2,5,5,3,OT network,US-East,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0004,SOC Tooling,SOC Tooling Database 4,Database,Prod,Data Platform,Confidential,3,1,1,3,SaaS,Factory,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0005,Identity Platform,Identity Platform Endpoint 5,Endpoint,Test,Data Platform,Public,3,2,3,2,OT network,US-West,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0006,Customer Portal,Customer Portal OT 6,OT,Prod,IT Ops,Public,4,5,1,2,OT network,US-West,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0007,ERP,ERP Data Set 7,Data Set,Dev,Data Platform,Public,2,4,3,3,On-prem,US-West,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0008,Customer Portal,Customer Portal Endpoint 8,Endpoint,Dev,Data Platform,Public,1,5,5,2,Filesystem,EU-West,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0009,Email,Email Third Party 9,Third Party,Dev,Finance,Public,3,2,2,1,AWS RDS,Factory,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0010,ERP,ERP Identity 10,Identity,Test,Manufacturing,Public,2,1,2,2,N/A,Factory,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0011,SOC Tooling,SOC Tooling Third Party 11,Third Party,Prod,IT Ops,Internal,5,4,5,2,Filesystem,EU-West,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0012,Identity Platform,Identity Platform Identity 12,Identity,Prod,Finance,Public,3,1,3,2,AWS RDS,Factory,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0013,SOC Tooling,SOC Tooling OT 13,OT,Test,HR,Internal,2,3,4,3,AWS RDS,Factory,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0014,Network Core,Network Core Database 14,Database,Dev,IT Ops,Confidential,4,5,3,2,On-prem,EU-West,Azure,Certificate,Sample placeholder row; replace with real asset details.
+A0015,Identity Platform,Identity Platform Third Party 15,Third Party,Dev,Data Platform,Confidential,2,5,1,2,On-prem,US-West,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0016,Data Warehouse,Data Warehouse Network 16,Network,Prod,Security,Public,5,2,3,1,OT network,EU-West,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0017,Endpoint Fleet,Endpoint Fleet Network 17,Network,Prod,Security,Internal,4,2,3,2,AWS RDS,Factory,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0018,Email,Email Application 18,Application,Dev,Manufacturing,Confidential,3,3,4,3,AWS RDS,US-West,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0019,Data Warehouse,Data Warehouse Endpoint 19,Endpoint,Prod,Data Platform,Restricted,5,1,1,2,N/A,US-East,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0020,Email,Email Endpoint 20,Endpoint,Prod,HR,Confidential,4,3,1,1,OT network,Factory,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0021,Identity Platform,Identity Platform Endpoint 21,Endpoint,Prod,HR,Confidential,2,1,3,2,On-prem,On-prem DC,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0022,Data Warehouse,Data Warehouse Data Set 22,Data Set,Prod,IT Ops,Internal,4,5,3,1,SaaS,Factory,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0023,Email,Email Third Party 23,Third Party,Test,IT Ops,Confidential,4,5,4,3,Filesystem,On-prem DC,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0024,Customer Portal,Customer Portal Identity 24,Identity,Dev,Product,Confidential,2,3,4,3,Azure SQL,EU-West,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0025,Identity Platform,Identity Platform Third Party 25,Third Party,Dev,IT Ops,Public,3,1,3,2,SaaS,On-prem DC,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0026,Email,Email Identity 26,Identity,Dev,Product,Confidential,5,1,1,1,SaaS,Factory,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0027,Email,Email OT 27,OT,Prod,IT Ops,Internal,3,3,4,3,AWS RDS,US-West,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0028,ERP,ERP Database 28,Database,Test,IT Ops,Internal,5,1,5,2,On-prem,EU-West,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0029,Network Core,Network Core Application 29,Application,Test,Security,Restricted,1,1,3,1,Azure SQL,EU-West,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0030,Network Core,Network Core Infrastructure 30,Infrastructure,Test,IT Ops,Restricted,3,4,4,1,OT network,On-prem DC,AWS,MFA,Sample placeholder row; replace with real asset details.
+A0031,MES,MES Database 31,Database,Dev,Data Platform,Confidential,3,1,1,1,Azure SQL,US-East,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0032,Endpoint Fleet,Endpoint Fleet Endpoint 32,Endpoint,Prod,Finance,Internal,3,1,2,1,N/A,On-prem DC,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0033,SOC Tooling,SOC Tooling Database 33,Database,Test,Data Platform,Internal,4,1,2,1,OT network,US-West,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0034,Data Warehouse,Data Warehouse Data Set 34,Data Set,Dev,HR,Internal,5,3,2,1,Azure SQL,US-East,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0035,Data Warehouse,Data Warehouse OT 35,OT,Dev,Data Platform,Public,5,5,4,3,AWS RDS,On-prem DC,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0036,Endpoint Fleet,Endpoint Fleet Data Set 36,Data Set,Dev,Data Platform,Restricted,3,3,2,2,Azure SQL,Factory,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0037,MES,MES OT 37,OT,Dev,HR,Internal,1,4,2,3,Filesystem,US-East,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0038,Email,Email Endpoint 38,Endpoint,Prod,IT Ops,Restricted,3,4,2,1,On-prem,On-prem DC,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0039,Customer Portal,Customer Portal Identity 39,Identity,Dev,HR,Internal,5,3,1,2,SaaS,US-West,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0040,Email,Email Application 40,Application,Prod,Security,Confidential,4,2,3,1,SaaS,EU-West,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0041,SOC Tooling,SOC Tooling Identity 41,Identity,Dev,IT Ops,Restricted,2,3,2,1,On-prem,EU-West,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0042,Network Core,Network Core Infrastructure 42,Infrastructure,Dev,Security,Internal,1,2,5,1,N/A,US-East,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0043,Identity Platform,Identity Platform Endpoint 43,Endpoint,Test,HR,Public,3,1,1,1,N/A,EU-West,Vendor Hosted,MFA,Sample placeholder row; replace with real asset details.
+A0044,MES,MES Network 44,Network,Prod,HR,Restricted,5,2,1,1,N/A,EU-West,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0045,SOC Tooling,SOC Tooling Application 45,Application,Test,Product,Public,5,4,3,2,OT network,On-prem DC,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0046,Endpoint Fleet,Endpoint Fleet Application 46,Application,Dev,HR,Internal,5,3,2,1,N/A,On-prem DC,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0047,Network Core,Network Core Database 47,Database,Prod,Product,Internal,1,3,1,2,AWS RDS,EU-West,Vendor Hosted,MFA,Sample placeholder row; replace with real asset details.
+A0048,SOC Tooling,SOC Tooling Data Set 48,Data Set,Prod,Product,Public,3,1,5,1,Azure SQL,US-West,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0049,ERP,ERP Identity 49,Identity,Test,Data Platform,Restricted,4,3,5,1,OT network,US-West,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0050,Customer Portal,Customer Portal Application 50,Application,Dev,Manufacturing,Internal,5,2,1,3,On-prem,US-East,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0051,Customer Portal,Customer Portal Third Party 51,Third Party,Prod,Manufacturing,Public,2,4,2,3,AWS RDS,US-East,GCP,API Key,Sample placeholder row; replace with real asset details.
+A0052,MES,MES OT 52,OT,Prod,HR,Public,5,2,2,1,N/A,US-West,Azure,API Key,Sample placeholder row; replace with real asset details.
+A0053,Email,Email Database 53,Database,Dev,Security,Public,1,1,4,2,SaaS,US-East,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0054,Email,Email Third Party 54,Third Party,Test,IT Ops,Internal,2,5,3,2,N/A,US-East,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0055,Customer Portal,Customer Portal Data Set 55,Data Set,Prod,HR,Public,4,4,4,1,AWS RDS,On-prem DC,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0056,Data Warehouse,Data Warehouse Third Party 56,Third Party,Prod,Manufacturing,Restricted,5,3,1,2,Filesystem,Factory,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0057,SOC Tooling,SOC Tooling Infrastructure 57,Infrastructure,Test,Data Platform,Internal,3,2,2,2,Azure SQL,US-East,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0058,Endpoint Fleet,Endpoint Fleet Network 58,Network,Test,Product,Public,5,5,5,3,N/A,EU-West,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0059,Customer Portal,Customer Portal Identity 59,Identity,Dev,IT Ops,Public,2,1,2,3,Azure SQL,US-East,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0060,Data Warehouse,Data Warehouse Identity 60,Identity,Prod,Security,Confidential,5,5,1,3,N/A,On-prem DC,Azure,MFA,Sample placeholder row; replace with real asset details.
+A0061,Customer Portal,Customer Portal OT 61,OT,Test,Finance,Public,5,5,2,2,SaaS,EU-West,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0062,Data Warehouse,Data Warehouse Data Set 62,Data Set,Test,Finance,Internal,1,5,2,3,OT network,Factory,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0063,Endpoint Fleet,Endpoint Fleet Endpoint 63,Endpoint,Prod,Data Platform,Public,1,5,2,1,AWS RDS,On-prem DC,GCP,API Key,Sample placeholder row; replace with real asset details.
+A0064,Endpoint Fleet,Endpoint Fleet Data Set 64,Data Set,Prod,HR,Public,5,2,1,2,OT network,US-East,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0065,Customer Portal,Customer Portal Network 65,Network,Prod,HR,Restricted,5,2,3,1,AWS RDS,EU-West,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0066,MES,MES Endpoint 66,Endpoint,Dev,Finance,Restricted,3,3,1,2,SaaS,EU-West,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0067,MES,MES OT 67,OT,Test,HR,Public,5,1,1,2,N/A,Factory,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0068,MES,MES Third Party 68,Third Party,Test,Product,Confidential,3,3,2,2,Filesystem,On-prem DC,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0069,Endpoint Fleet,Endpoint Fleet Database 69,Database,Prod,Product,Restricted,1,3,1,2,N/A,EU-West,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0070,Email,Email Identity 70,Identity,Test,Manufacturing,Public,5,5,4,1,AWS RDS,US-West,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0071,ERP,ERP Third Party 71,Third Party,Dev,HR,Restricted,5,5,1,3,N/A,Factory,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0072,Network Core,Network Core Data Set 72,Data Set,Dev,Manufacturing,Internal,5,4,4,2,AWS RDS,Factory,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0073,ERP,ERP Identity 73,Identity,Dev,Data Platform,Restricted,2,2,4,3,SaaS,Factory,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0074,SOC Tooling,SOC Tooling Data Set 74,Data Set,Prod,Finance,Confidential,5,5,2,2,Azure SQL,US-East,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0075,Identity Platform,Identity Platform Database 75,Database,Test,IT Ops,Restricted,2,1,4,1,On-prem,Factory,Vendor Hosted,MFA,Sample placeholder row; replace with real asset details.
+A0076,Network Core,Network Core Network 76,Network,Prod,Manufacturing,Internal,5,3,3,3,SaaS,EU-West,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0077,ERP,ERP Infrastructure 77,Infrastructure,Prod,HR,Confidential,4,2,1,3,SaaS,US-West,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0078,Customer Portal,Customer Portal Application 78,Application,Prod,Security,Internal,1,5,5,1,OT network,Factory,Azure,API Key,Sample placeholder row; replace with real asset details.
+A0079,MES,MES OT 79,OT,Prod,Product,Internal,1,2,1,2,SaaS,US-East,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0080,Data Warehouse,Data Warehouse Database 80,Database,Prod,Manufacturing,Confidential,3,4,4,1,OT network,On-prem DC,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0081,Email,Email OT 81,OT,Test,Security,Internal,1,4,2,2,Filesystem,EU-West,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0082,Email,Email Identity 82,Identity,Dev,IT Ops,Confidential,1,3,4,1,SaaS,EU-West,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0083,SOC Tooling,SOC Tooling OT 83,OT,Test,Data Platform,Public,3,2,1,3,On-prem,US-East,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0084,MES,MES Database 84,Database,Test,Finance,Confidential,5,1,3,3,OT network,EU-West,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0085,Email,Email Identity 85,Identity,Dev,Security,Confidential,3,5,3,1,On-prem,EU-West,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0086,ERP,ERP OT 86,OT,Test,Product,Confidential,3,3,4,1,On-prem,EU-West,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0087,Identity Platform,Identity Platform Identity 87,Identity,Prod,Security,Public,3,5,2,1,OT network,US-West,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0088,Data Warehouse,Data Warehouse Third Party 88,Third Party,Dev,Product,Internal,4,2,1,1,AWS RDS,US-West,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0089,Endpoint Fleet,Endpoint Fleet Application 89,Application,Dev,IT Ops,Restricted,3,2,2,3,AWS RDS,EU-West,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0090,ERP,ERP Identity 90,Identity,Test,Security,Public,3,1,5,1,SaaS,Factory,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0091,Endpoint Fleet,Endpoint Fleet Database 91,Database,Dev,Manufacturing,Public,5,2,2,3,Filesystem,On-prem DC,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0092,Customer Portal,Customer Portal Network 92,Network,Prod,IT Ops,Internal,2,4,2,1,On-prem,On-prem DC,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0093,Data Warehouse,Data Warehouse OT 93,OT,Prod,HR,Confidential,2,5,1,2,Filesystem,US-West,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0094,ERP,ERP Identity 94,Identity,Dev,Manufacturing,Restricted,3,5,2,3,On-prem,US-West,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0095,Endpoint Fleet,Endpoint Fleet OT 95,OT,Dev,IT Ops,Restricted,4,1,2,1,On-prem,US-West,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0096,Endpoint Fleet,Endpoint Fleet Identity 96,Identity,Test,Security,Public,2,5,4,1,AWS RDS,US-East,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0097,Email,Email Identity 97,Identity,Prod,HR,Confidential,5,2,3,3,Filesystem,EU-West,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0098,SOC Tooling,SOC Tooling Endpoint 98,Endpoint,Dev,Security,Public,1,5,5,3,N/A,US-East,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0099,SOC Tooling,SOC Tooling Identity 99,Identity,Prod,Security,Internal,4,3,1,1,N/A,US-West,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0100,Network Core,Network Core Endpoint 100,Endpoint,Dev,IT Ops,Public,4,4,1,2,On-prem,On-prem DC,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0101,Customer Portal,Customer Portal Application 101,Application,Dev,IT Ops,Confidential,1,2,5,3,Filesystem,On-prem DC,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0102,Customer Portal,Customer Portal OT 102,OT,Dev,Product,Restricted,3,3,3,1,Filesystem,Factory,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0103,Data Warehouse,Data Warehouse Data Set 103,Data Set,Test,Product,Confidential,4,5,4,2,AWS RDS,US-West,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0104,ERP,ERP Application 104,Application,Test,IT Ops,Confidential,1,4,5,2,SaaS,EU-West,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0105,Email,Email Endpoint 105,Endpoint,Dev,Security,Confidential,4,2,4,2,Azure SQL,US-East,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0106,Identity Platform,Identity Platform Application 106,Application,Prod,Manufacturing,Confidential,2,3,2,1,AWS RDS,EU-West,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0107,MES,MES Infrastructure 107,Infrastructure,Dev,Data Platform,Confidential,3,1,5,2,Azure SQL,US-West,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0108,Endpoint Fleet,Endpoint Fleet OT 108,OT,Test,Finance,Public,2,2,3,1,Azure SQL,US-West,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0109,Identity Platform,Identity Platform OT 109,OT,Prod,HR,Confidential,5,4,2,1,On-prem,US-East,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0110,Identity Platform,Identity Platform Data Set 110,Data Set,Dev,Product,Restricted,2,2,1,3,N/A,On-prem DC,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0111,Customer Portal,Customer Portal Database 111,Database,Test,Product,Restricted,4,4,1,1,OT network,On-prem DC,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0112,SOC Tooling,SOC Tooling Data Set 112,Data Set,Prod,Product,Restricted,1,5,4,2,SaaS,EU-West,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0113,Data Warehouse,Data Warehouse Identity 113,Identity,Dev,IT Ops,Confidential,5,2,3,1,N/A,On-prem DC,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0114,Identity Platform,Identity Platform Data Set 114,Data Set,Prod,Security,Restricted,5,1,2,1,On-prem,EU-West,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0115,Endpoint Fleet,Endpoint Fleet Database 115,Database,Test,Manufacturing,Internal,2,1,1,1,SaaS,EU-West,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0116,Endpoint Fleet,Endpoint Fleet Endpoint 116,Endpoint,Prod,Data Platform,Restricted,1,5,3,3,N/A,US-East,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0117,Network Core,Network Core Database 117,Database,Dev,Security,Public,4,5,1,1,AWS RDS,US-West,AWS,MFA,Sample placeholder row; replace with real asset details.
+A0118,Email,Email Third Party 118,Third Party,Prod,HR,Restricted,2,4,1,1,Azure SQL,Factory,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0119,Email,Email Third Party 119,Third Party,Test,Security,Internal,1,1,4,3,Azure SQL,US-West,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0120,MES,MES Identity 120,Identity,Dev,IT Ops,Public,2,1,4,1,On-prem,Factory,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0121,MES,MES Endpoint 121,Endpoint,Dev,HR,Restricted,5,2,4,2,N/A,On-prem DC,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0122,Network Core,Network Core Application 122,Application,Dev,Finance,Restricted,5,2,3,3,Azure SQL,Factory,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0123,Identity Platform,Identity Platform Infrastructure 123,Infrastructure,Test,HR,Public,2,1,3,3,On-prem,On-prem DC,Vendor Hosted,MFA,Sample placeholder row; replace with real asset details.
+A0124,SOC Tooling,SOC Tooling Data Set 124,Data Set,Prod,Data Platform,Internal,5,3,3,2,AWS RDS,Factory,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0125,Customer Portal,Customer Portal Data Set 125,Data Set,Test,IT Ops,Public,1,3,4,2,Filesystem,US-East,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0126,Customer Portal,Customer Portal Infrastructure 126,Infrastructure,Prod,IT Ops,Restricted,1,5,3,1,N/A,On-prem DC,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0127,Customer Portal,Customer Portal Endpoint 127,Endpoint,Test,HR,Internal,1,2,1,3,Filesystem,US-West,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0128,MES,MES Third Party 128,Third Party,Prod,Finance,Restricted,1,1,1,3,N/A,EU-West,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0129,Customer Portal,Customer Portal Endpoint 129,Endpoint,Test,IT Ops,Public,4,2,2,2,Filesystem,US-West,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0130,Endpoint Fleet,Endpoint Fleet Endpoint 130,Endpoint,Dev,Manufacturing,Public,2,5,4,3,SaaS,Factory,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0131,MES,MES Database 131,Database,Dev,Manufacturing,Public,2,1,5,1,Azure SQL,Factory,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0132,Identity Platform,Identity Platform Database 132,Database,Prod,IT Ops,Confidential,1,4,1,1,N/A,On-prem DC,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0133,Identity Platform,Identity Platform Network 133,Network,Dev,Finance,Public,3,4,3,2,AWS RDS,On-prem DC,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0134,Data Warehouse,Data Warehouse Endpoint 134,Endpoint,Prod,Security,Public,1,3,1,1,Filesystem,On-prem DC,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0135,MES,MES OT 135,OT,Dev,HR,Internal,1,5,2,1,AWS RDS,US-East,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0136,MES,MES Application 136,Application,Test,IT Ops,Internal,5,4,5,2,AWS RDS,On-prem DC,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0137,Data Warehouse,Data Warehouse OT 137,OT,Test,Product,Internal,3,5,2,2,AWS RDS,US-East,Azure,Certificate,Sample placeholder row; replace with real asset details.
+A0138,Endpoint Fleet,Endpoint Fleet Endpoint 138,Endpoint,Test,Finance,Internal,3,1,3,2,OT network,US-West,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0139,Endpoint Fleet,Endpoint Fleet Application 139,Application,Test,Manufacturing,Confidential,4,2,4,3,OT network,On-prem DC,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0140,Email,Email Data Set 140,Data Set,Dev,HR,Restricted,1,4,4,2,Filesystem,Factory,AWS,MFA,Sample placeholder row; replace with real asset details.
+A0141,SOC Tooling,SOC Tooling OT 141,OT,Dev,Manufacturing,Public,3,3,5,3,AWS RDS,US-West,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0142,Identity Platform,Identity Platform Application 142,Application,Test,IT Ops,Confidential,4,5,2,1,SaaS,US-West,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0143,Network Core,Network Core Infrastructure 143,Infrastructure,Dev,Manufacturing,Public,2,4,2,3,Azure SQL,EU-West,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0144,Network Core,Network Core Network 144,Network,Dev,HR,Confidential,4,5,3,3,N/A,On-prem DC,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0145,Identity Platform,Identity Platform Network 145,Network,Prod,Manufacturing,Restricted,3,3,3,1,AWS RDS,US-West,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0146,Identity Platform,Identity Platform Network 146,Network,Test,Finance,Restricted,1,3,5,3,AWS RDS,EU-West,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0147,Customer Portal,Customer Portal Identity 147,Identity,Dev,IT Ops,Public,2,1,3,3,AWS RDS,US-East,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0148,Identity Platform,Identity Platform Database 148,Database,Prod,Product,Public,1,5,4,1,OT network,US-West,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0149,SOC Tooling,SOC Tooling OT 149,OT,Test,IT Ops,Internal,2,3,2,2,SaaS,Factory,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0150,Customer Portal,Customer Portal Network 150,Network,Prod,Security,Internal,2,4,4,3,On-prem,On-prem DC,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0151,Customer Portal,Customer Portal Infrastructure 151,Infrastructure,Test,Data Platform,Confidential,3,1,4,1,N/A,US-East,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0152,Data Warehouse,Data Warehouse Third Party 152,Third Party,Prod,Product,Restricted,1,4,4,2,On-prem,On-prem DC,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0153,ERP,ERP Network 153,Network,Prod,Product,Restricted,3,2,2,1,Filesystem,EU-West,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0154,Customer Portal,Customer Portal Infrastructure 154,Infrastructure,Test,Data Platform,Public,5,2,2,1,N/A,US-West,GCP,API Key,Sample placeholder row; replace with real asset details.
+A0155,Data Warehouse,Data Warehouse Network 155,Network,Prod,Finance,Confidential,4,3,4,2,Azure SQL,On-prem DC,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0156,Network Core,Network Core Infrastructure 156,Infrastructure,Test,Data Platform,Restricted,3,2,1,3,On-prem,On-prem DC,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0157,Data Warehouse,Data Warehouse Third Party 157,Third Party,Prod,Security,Internal,2,4,4,1,AWS RDS,EU-West,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0158,Customer Portal,Customer Portal Infrastructure 158,Infrastructure,Dev,Data Platform,Restricted,2,5,2,1,Filesystem,On-prem DC,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0159,Data Warehouse,Data Warehouse Data Set 159,Data Set,Prod,Product,Restricted,1,2,2,3,SaaS,US-East,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0160,Customer Portal,Customer Portal Identity 160,Identity,Prod,Security,Public,4,3,5,1,OT network,EU-West,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0161,ERP,ERP Data Set 161,Data Set,Dev,Manufacturing,Confidential,3,4,4,1,OT network,US-West,Azure,Certificate,Sample placeholder row; replace with real asset details.
+A0162,Data Warehouse,Data Warehouse Identity 162,Identity,Test,IT Ops,Public,5,3,3,1,Azure SQL,US-East,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0163,Data Warehouse,Data Warehouse Database 163,Database,Test,Manufacturing,Internal,2,2,2,2,Filesystem,US-West,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0164,Data Warehouse,Data Warehouse Database 164,Database,Dev,IT Ops,Public,4,3,4,2,Azure SQL,US-East,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0165,Endpoint Fleet,Endpoint Fleet Infrastructure 165,Infrastructure,Test,Data Platform,Public,5,5,4,1,Azure SQL,US-West,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0166,ERP,ERP Third Party 166,Third Party,Test,Data Platform,Public,1,2,4,3,Filesystem,US-West,Azure,Certificate,Sample placeholder row; replace with real asset details.
+A0167,Data Warehouse,Data Warehouse Database 167,Database,Test,HR,Public,4,4,2,1,AWS RDS,US-West,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0168,Email,Email Identity 168,Identity,Prod,Manufacturing,Internal,2,2,5,3,OT network,US-West,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0169,Identity Platform,Identity Platform Endpoint 169,Endpoint,Dev,Finance,Internal,4,3,5,1,SaaS,US-West,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0170,Data Warehouse,Data Warehouse Data Set 170,Data Set,Dev,Product,Internal,3,4,2,3,Azure SQL,US-West,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0171,Customer Portal,Customer Portal Endpoint 171,Endpoint,Test,Finance,Confidential,5,5,4,1,Azure SQL,EU-West,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0172,MES,MES Identity 172,Identity,Prod,IT Ops,Internal,2,4,3,1,On-prem,US-East,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0173,Network Core,Network Core Database 173,Database,Prod,IT Ops,Public,4,4,4,2,Filesystem,US-West,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0174,SOC Tooling,SOC Tooling Third Party 174,Third Party,Dev,Product,Public,3,2,3,3,On-prem,Factory,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0175,Data Warehouse,Data Warehouse Endpoint 175,Endpoint,Dev,Product,Restricted,5,2,1,1,Azure SQL,EU-West,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0176,Data Warehouse,Data Warehouse Application 176,Application,Prod,IT Ops,Restricted,2,1,1,3,OT network,EU-West,Azure,API Key,Sample placeholder row; replace with real asset details.
+A0177,SOC Tooling,SOC Tooling Infrastructure 177,Infrastructure,Prod,HR,Confidential,5,3,3,3,SaaS,US-East,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0178,ERP,ERP Network 178,Network,Dev,HR,Restricted,3,2,1,2,Filesystem,EU-West,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0179,Identity Platform,Identity Platform Identity 179,Identity,Dev,Manufacturing,Confidential,5,2,2,1,On-prem,US-East,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0180,Endpoint Fleet,Endpoint Fleet Network 180,Network,Dev,HR,Restricted,2,1,2,3,Filesystem,EU-West,Azure,MFA,Sample placeholder row; replace with real asset details.
+A0181,SOC Tooling,SOC Tooling Data Set 181,Data Set,Dev,Finance,Restricted,2,3,1,1,Azure SQL,On-prem DC,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0182,Network Core,Network Core Infrastructure 182,Infrastructure,Prod,Data Platform,Internal,3,4,4,1,N/A,US-East,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0183,Customer Portal,Customer Portal Identity 183,Identity,Test,IT Ops,Restricted,4,1,4,3,N/A,EU-West,Azure,MFA,Sample placeholder row; replace with real asset details.
+A0184,Endpoint Fleet,Endpoint Fleet Application 184,Application,Prod,HR,Internal,3,3,5,1,Filesystem,On-prem DC,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0185,Customer Portal,Customer Portal Identity 185,Identity,Test,Product,Restricted,5,4,1,2,Filesystem,EU-West,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0186,Identity Platform,Identity Platform Infrastructure 186,Infrastructure,Test,Data Platform,Public,1,1,3,1,AWS RDS,On-prem DC,Azure,Certificate,Sample placeholder row; replace with real asset details.
+A0187,Network Core,Network Core Endpoint 187,Endpoint,Test,Data Platform,Internal,1,4,2,3,SaaS,EU-West,GCP,API Key,Sample placeholder row; replace with real asset details.
+A0188,Data Warehouse,Data Warehouse OT 188,OT,Dev,Security,Confidential,5,3,5,2,OT network,US-West,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0189,ERP,ERP Identity 189,Identity,Test,Security,Restricted,1,1,5,1,SaaS,EU-West,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0190,SOC Tooling,SOC Tooling Application 190,Application,Dev,IT Ops,Public,3,5,2,1,Filesystem,Factory,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0191,MES,MES Identity 191,Identity,Test,Manufacturing,Internal,2,1,4,1,OT network,US-East,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0192,MES,MES Network 192,Network,Test,HR,Restricted,1,3,2,2,SaaS,On-prem DC,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0193,Email,Email Third Party 193,Third Party,Prod,Manufacturing,Confidential,4,3,4,1,N/A,US-West,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0194,Network Core,Network Core Identity 194,Identity,Dev,IT Ops,Internal,5,3,5,2,SaaS,US-East,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0195,ERP,ERP Third Party 195,Third Party,Prod,Product,Confidential,2,5,4,1,On-prem,US-West,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0196,ERP,ERP Endpoint 196,Endpoint,Test,Product,Public,4,1,5,1,Azure SQL,US-East,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0197,ERP,ERP Endpoint 197,Endpoint,Prod,Finance,Confidential,5,4,1,1,Filesystem,US-West,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0198,Endpoint Fleet,Endpoint Fleet OT 198,OT,Dev,Data Platform,Confidential,1,1,1,3,Filesystem,On-prem DC,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0199,ERP,ERP Third Party 199,Third Party,Prod,Product,Restricted,1,4,5,2,AWS RDS,US-West,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0200,SOC Tooling,SOC Tooling Identity 200,Identity,Prod,IT Ops,Public,2,3,1,1,OT network,EU-West,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0201,Network Core,Network Core Identity 201,Identity,Test,Finance,Public,2,3,4,1,OT network,EU-West,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0202,MES,MES Database 202,Database,Prod,HR,Public,5,2,5,1,Filesystem,US-West,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0203,MES,MES Infrastructure 203,Infrastructure,Dev,IT Ops,Confidential,1,2,2,2,N/A,US-West,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0204,Identity Platform,Identity Platform Database 204,Database,Prod,Data Platform,Restricted,1,3,3,1,Filesystem,On-prem DC,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0205,Email,Email Database 205,Database,Dev,IT Ops,Internal,3,4,4,1,N/A,EU-West,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0206,Identity Platform,Identity Platform OT 206,OT,Prod,Manufacturing,Restricted,1,3,4,2,AWS RDS,EU-West,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0207,Email,Email Infrastructure 207,Infrastructure,Prod,Data Platform,Public,1,3,5,2,N/A,EU-West,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0208,Data Warehouse,Data Warehouse Third Party 208,Third Party,Dev,Data Platform,Internal,5,4,1,2,Filesystem,US-East,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0209,Customer Portal,Customer Portal Network 209,Network,Prod,Security,Restricted,5,5,2,2,N/A,Factory,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0210,Network Core,Network Core Infrastructure 210,Infrastructure,Test,Finance,Internal,1,2,4,1,On-prem,US-West,Vendor Hosted,MFA,Sample placeholder row; replace with real asset details.
+A0211,Network Core,Network Core Third Party 211,Third Party,Dev,Security,Internal,4,1,2,1,Azure SQL,US-West,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0212,Data Warehouse,Data Warehouse Data Set 212,Data Set,Test,Finance,Restricted,3,1,4,1,Filesystem,On-prem DC,AWS,MFA,Sample placeholder row; replace with real asset details.
+A0213,Endpoint Fleet,Endpoint Fleet OT 213,OT,Test,IT Ops,Public,5,3,1,1,SaaS,US-West,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0214,Network Core,Network Core Identity 214,Identity,Test,HR,Public,5,3,2,3,N/A,US-East,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0215,Network Core,Network Core Endpoint 215,Endpoint,Dev,HR,Restricted,2,3,5,2,On-prem,US-East,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0216,ERP,ERP Infrastructure 216,Infrastructure,Dev,Finance,Public,5,5,5,1,OT network,On-prem DC,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0217,Data Warehouse,Data Warehouse Infrastructure 217,Infrastructure,Dev,Product,Confidential,2,1,5,1,SaaS,US-East,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0218,Network Core,Network Core OT 218,OT,Prod,Product,Internal,5,2,2,2,OT network,US-West,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0219,Email,Email Identity 219,Identity,Test,HR,Restricted,1,5,3,2,On-prem,On-prem DC,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0220,Data Warehouse,Data Warehouse Infrastructure 220,Infrastructure,Test,IT Ops,Restricted,2,4,1,2,N/A,On-prem DC,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0221,Customer Portal,Customer Portal Application 221,Application,Prod,Data Platform,Confidential,3,1,5,3,Azure SQL,Factory,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0222,Data Warehouse,Data Warehouse Infrastructure 222,Infrastructure,Test,Manufacturing,Internal,3,5,5,2,Azure SQL,EU-West,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0223,ERP,ERP Identity 223,Identity,Prod,Security,Restricted,2,1,1,1,SaaS,Factory,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0224,SOC Tooling,SOC Tooling Endpoint 224,Endpoint,Dev,Finance,Confidential,3,1,4,1,Filesystem,On-prem DC,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0225,Identity Platform,Identity Platform Infrastructure 225,Infrastructure,Dev,Security,Internal,3,5,1,2,AWS RDS,On-prem DC,Azure,API Key,Sample placeholder row; replace with real asset details.
+A0226,Network Core,Network Core Third Party 226,Third Party,Test,IT Ops,Public,5,2,2,3,OT network,US-East,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0227,Email,Email Network 227,Network,Dev,Product,Confidential,5,4,1,1,Azure SQL,On-prem DC,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0228,Email,Email Database 228,Database,Prod,IT Ops,Internal,4,5,1,2,OT network,US-East,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0229,Identity Platform,Identity Platform Endpoint 229,Endpoint,Dev,Finance,Confidential,3,1,4,2,AWS RDS,EU-West,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0230,Identity Platform,Identity Platform Endpoint 230,Endpoint,Prod,Finance,Restricted,5,1,5,2,OT network,US-West,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0231,Email,Email Network 231,Network,Test,IT Ops,Confidential,1,2,3,2,OT network,On-prem DC,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0232,MES,MES Database 232,Database,Prod,Product,Public,2,5,5,1,On-prem,On-prem DC,GCP,API Key,Sample placeholder row; replace with real asset details.
+A0233,Data Warehouse,Data Warehouse Identity 233,Identity,Dev,Finance,Public,4,1,4,3,SaaS,EU-West,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0234,Endpoint Fleet,Endpoint Fleet OT 234,OT,Dev,HR,Confidential,3,4,2,1,Azure SQL,US-East,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0235,MES,MES OT 235,OT,Dev,IT Ops,Restricted,3,4,2,3,OT network,Factory,Azure,Certificate,Sample placeholder row; replace with real asset details.
+A0236,Identity Platform,Identity Platform Infrastructure 236,Infrastructure,Dev,Data Platform,Public,3,2,5,3,SaaS,On-prem DC,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0237,MES,MES Network 237,Network,Test,HR,Public,3,5,2,1,On-prem,EU-West,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0238,Email,Email Database 238,Database,Test,Product,Restricted,4,4,2,2,On-prem,EU-West,Azure,Certificate,Sample placeholder row; replace with real asset details.
+A0239,MES,MES Third Party 239,Third Party,Dev,Finance,Internal,5,2,3,2,N/A,US-East,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0240,SOC Tooling,SOC Tooling Network 240,Network,Dev,Product,Public,1,5,5,2,On-prem,On-prem DC,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0241,Data Warehouse,Data Warehouse Identity 241,Identity,Dev,Data Platform,Confidential,3,1,4,3,On-prem,US-East,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0242,Data Warehouse,Data Warehouse Infrastructure 242,Infrastructure,Dev,Finance,Confidential,2,5,5,2,SaaS,Factory,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0243,Identity Platform,Identity Platform Data Set 243,Data Set,Prod,Finance,Internal,3,4,3,1,Azure SQL,On-prem DC,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0244,MES,MES OT 244,OT,Dev,HR,Internal,5,2,4,3,AWS RDS,EU-West,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0245,ERP,ERP Infrastructure 245,Infrastructure,Dev,HR,Public,1,1,2,1,Filesystem,EU-West,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0246,Email,Email Application 246,Application,Test,HR,Confidential,4,1,3,1,On-prem,On-prem DC,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0247,Customer Portal,Customer Portal OT 247,OT,Test,Manufacturing,Confidential,2,5,3,2,SaaS,US-East,Vendor Hosted,MFA,Sample placeholder row; replace with real asset details.
+A0248,Identity Platform,Identity Platform Infrastructure 248,Infrastructure,Test,Finance,Internal,2,3,2,2,SaaS,US-East,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0249,ERP,ERP Application 249,Application,Prod,IT Ops,Confidential,3,5,2,2,On-prem,US-East,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0250,Email,Email Database 250,Database,Test,Finance,Restricted,3,3,5,3,Azure SQL,US-West,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0251,Customer Portal,Customer Portal OT 251,OT,Dev,HR,Restricted,4,4,3,2,Filesystem,US-West,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0252,SOC Tooling,SOC Tooling Network 252,Network,Test,Manufacturing,Confidential,2,2,2,3,N/A,Factory,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0253,Endpoint Fleet,Endpoint Fleet Application 253,Application,Prod,Finance,Internal,5,5,2,1,SaaS,Factory,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0254,SOC Tooling,SOC Tooling Application 254,Application,Test,Data Platform,Internal,4,1,2,3,N/A,EU-West,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0255,Endpoint Fleet,Endpoint Fleet Network 255,Network,Dev,IT Ops,Internal,4,3,1,2,Azure SQL,EU-West,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0256,ERP,ERP Application 256,Application,Prod,Data Platform,Internal,2,2,2,3,Filesystem,On-prem DC,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0257,Customer Portal,Customer Portal OT 257,OT,Dev,HR,Internal,5,2,4,2,On-prem,US-East,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0258,Email,Email Third Party 258,Third Party,Test,HR,Restricted,3,5,1,1,OT network,On-prem DC,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0259,SOC Tooling,SOC Tooling Application 259,Application,Dev,Security,Internal,5,2,2,1,Azure SQL,US-East,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0260,Email,Email Application 260,Application,Dev,Manufacturing,Confidential,4,5,3,1,N/A,US-East,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0261,Email,Email Infrastructure 261,Infrastructure,Prod,Product,Confidential,5,4,4,3,N/A,On-prem DC,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0262,Network Core,Network Core Third Party 262,Third Party,Test,IT Ops,Internal,2,5,4,2,Filesystem,US-East,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0263,ERP,ERP Endpoint 263,Endpoint,Prod,Data Platform,Restricted,1,2,5,1,On-prem,Factory,Azure,API Key,Sample placeholder row; replace with real asset details.
+A0264,ERP,ERP Identity 264,Identity,Test,Product,Internal,2,1,5,2,AWS RDS,US-West,GCP,API Key,Sample placeholder row; replace with real asset details.
+A0265,Email,Email OT 265,OT,Test,Security,Restricted,1,4,5,3,OT network,On-prem DC,GCP,API Key,Sample placeholder row; replace with real asset details.
+A0266,Identity Platform,Identity Platform Third Party 266,Third Party,Dev,HR,Public,1,2,5,2,On-prem,US-West,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0267,ERP,ERP Network 267,Network,Prod,Data Platform,Internal,5,4,5,3,On-prem,On-prem DC,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0268,MES,MES Endpoint 268,Endpoint,Dev,IT Ops,Internal,3,4,5,1,OT network,EU-West,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0269,Data Warehouse,Data Warehouse Infrastructure 269,Infrastructure,Dev,HR,Public,4,1,4,1,SaaS,Factory,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0270,Data Warehouse,Data Warehouse Infrastructure 270,Infrastructure,Prod,HR,Public,2,5,1,3,Azure SQL,US-West,On-prem,Certificate,Sample placeholder row; replace with real asset details.
+A0271,Network Core,Network Core Endpoint 271,Endpoint,Dev,Data Platform,Internal,3,1,1,2,Filesystem,US-East,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0272,Endpoint Fleet,Endpoint Fleet Database 272,Database,Dev,IT Ops,Restricted,5,4,2,2,OT network,On-prem DC,AWS,API Key,Sample placeholder row; replace with real asset details.
+A0273,SOC Tooling,SOC Tooling Network 273,Network,Test,HR,Restricted,1,4,4,1,SaaS,US-West,Vendor Hosted,MFA,Sample placeholder row; replace with real asset details.
+A0274,Network Core,Network Core Application 274,Application,Test,Manufacturing,Public,2,2,2,3,Azure SQL,US-West,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0275,Endpoint Fleet,Endpoint Fleet Database 275,Database,Test,Data Platform,Internal,5,5,5,2,SaaS,US-West,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0276,Endpoint Fleet,Endpoint Fleet Network 276,Network,Dev,Product,Internal,2,1,5,2,Filesystem,On-prem DC,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0277,Email,Email OT 277,OT,Prod,Manufacturing,Internal,3,4,5,3,Azure SQL,EU-West,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0278,SOC Tooling,SOC Tooling Application 278,Application,Prod,Finance,Confidential,3,2,5,3,Azure SQL,On-prem DC,AWS,MFA,Sample placeholder row; replace with real asset details.
+A0279,SOC Tooling,SOC Tooling OT 279,OT,Prod,Data Platform,Restricted,5,4,1,2,N/A,Factory,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0280,Email,Email Identity 280,Identity,Dev,Security,Restricted,5,1,3,3,On-prem,Factory,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0281,Endpoint Fleet,Endpoint Fleet Third Party 281,Third Party,Prod,Product,Public,4,5,5,2,SaaS,On-prem DC,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0282,Email,Email Infrastructure 282,Infrastructure,Prod,Product,Public,2,1,5,3,OT network,EU-West,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0283,Email,Email Network 283,Network,Test,HR,Internal,2,5,2,3,AWS RDS,US-East,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0284,Customer Portal,Customer Portal OT 284,OT,Prod,Product,Restricted,4,2,4,1,Azure SQL,On-prem DC,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0285,Customer Portal,Customer Portal Third Party 285,Third Party,Prod,Finance,Restricted,5,1,5,2,N/A,US-East,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0286,Data Warehouse,Data Warehouse Infrastructure 286,Infrastructure,Dev,IT Ops,Internal,1,2,5,3,Filesystem,Factory,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0287,ERP,ERP Network 287,Network,Test,Manufacturing,Restricted,5,3,3,2,N/A,On-prem DC,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0288,MES,MES Endpoint 288,Endpoint,Prod,Finance,Confidential,3,1,4,3,Filesystem,EU-West,GCP,Service Principal,Sample placeholder row; replace with real asset details.
+A0289,Network Core,Network Core Application 289,Application,Dev,Security,Internal,2,1,3,1,Azure SQL,US-West,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0290,Identity Platform,Identity Platform Infrastructure 290,Infrastructure,Dev,Manufacturing,Internal,5,4,2,1,N/A,US-West,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0291,Identity Platform,Identity Platform Third Party 291,Third Party,Test,Security,Confidential,4,5,1,3,SaaS,On-prem DC,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0292,ERP,ERP Network 292,Network,Dev,Finance,Confidential,3,4,3,2,SaaS,US-West,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0293,Network Core,Network Core Data Set 293,Data Set,Prod,HR,Restricted,5,5,5,3,AWS RDS,US-East,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0294,MES,MES Application 294,Application,Prod,Data Platform,Internal,5,3,4,3,AWS RDS,US-West,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0295,SOC Tooling,SOC Tooling Database 295,Database,Test,IT Ops,Internal,4,4,1,3,N/A,Factory,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0296,Customer Portal,Customer Portal Network 296,Network,Prod,Security,Restricted,4,5,2,3,AWS RDS,US-West,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0297,ERP,ERP Third Party 297,Third Party,Prod,Data Platform,Confidential,2,1,5,2,OT network,On-prem DC,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0298,Email,Email Identity 298,Identity,Test,Manufacturing,Internal,3,3,4,2,On-prem,US-East,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0299,Endpoint Fleet,Endpoint Fleet Third Party 299,Third Party,Dev,Finance,Internal,3,2,1,3,On-prem,Factory,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0300,Email,Email Endpoint 300,Endpoint,Prod,IT Ops,Internal,2,5,4,3,N/A,US-East,AWS,MFA,Sample placeholder row; replace with real asset details.
+A0301,Network Core,Network Core Data Set 301,Data Set,Test,Data Platform,Public,1,3,3,2,AWS RDS,EU-West,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0302,Endpoint Fleet,Endpoint Fleet Network 302,Network,Test,IT Ops,Public,3,5,3,2,Filesystem,US-West,GCP,SSO,Sample placeholder row; replace with real asset details.
+A0303,Data Warehouse,Data Warehouse Infrastructure 303,Infrastructure,Dev,Data Platform,Restricted,1,4,4,2,Azure SQL,US-West,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0304,Data Warehouse,Data Warehouse Database 304,Database,Prod,Data Platform,Confidential,5,5,2,3,On-prem,US-East,GCP,Local Accounts,Sample placeholder row; replace with real asset details.
+A0305,Customer Portal,Customer Portal Identity 305,Identity,Dev,Security,Internal,1,3,2,3,N/A,EU-West,Azure,Certificate,Sample placeholder row; replace with real asset details.
+A0306,ERP,ERP Identity 306,Identity,Test,Security,Internal,2,3,1,3,OT network,US-West,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0307,SOC Tooling,SOC Tooling OT 307,OT,Dev,Data Platform,Internal,2,5,5,1,AWS RDS,On-prem DC,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0308,ERP,ERP Infrastructure 308,Infrastructure,Prod,HR,Confidential,1,5,2,1,Filesystem,US-West,AWS,MFA,Sample placeholder row; replace with real asset details.
+A0309,Customer Portal,Customer Portal OT 309,OT,Test,HR,Confidential,4,1,3,1,N/A,US-West,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0310,Email,Email Application 310,Application,Test,Data Platform,Public,3,4,5,3,Filesystem,EU-West,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0311,Identity Platform,Identity Platform Infrastructure 311,Infrastructure,Dev,Manufacturing,Restricted,4,5,4,1,SaaS,EU-West,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0312,Endpoint Fleet,Endpoint Fleet Network 312,Network,Test,Product,Restricted,3,4,3,3,OT network,On-prem DC,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0313,Network Core,Network Core Endpoint 313,Endpoint,Prod,Security,Public,2,1,4,2,Azure SQL,EU-West,On-prem,SSO,Sample placeholder row; replace with real asset details.
+A0314,MES,MES Network 314,Network,Test,Data Platform,Confidential,3,2,5,3,On-prem,EU-West,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0315,Endpoint Fleet,Endpoint Fleet Third Party 315,Third Party,Test,Finance,Internal,5,2,2,3,Azure SQL,On-prem DC,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0316,ERP,ERP Network 316,Network,Prod,Finance,Internal,3,4,4,2,Azure SQL,EU-West,GCP,API Key,Sample placeholder row; replace with real asset details.
+A0317,Identity Platform,Identity Platform Endpoint 317,Endpoint,Test,Product,Public,5,4,3,1,OT network,Factory,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0318,ERP,ERP OT 318,OT,Prod,Manufacturing,Confidential,4,1,3,2,SaaS,US-East,Vendor Hosted,Service Principal,Sample placeholder row; replace with real asset details.
+A0319,SOC Tooling,SOC Tooling Infrastructure 319,Infrastructure,Test,Finance,Internal,2,4,2,1,Filesystem,On-prem DC,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0320,Endpoint Fleet,Endpoint Fleet Network 320,Network,Prod,Security,Public,2,3,3,2,N/A,EU-West,Azure,Service Principal,Sample placeholder row; replace with real asset details.
+A0321,Network Core,Network Core Data Set 321,Data Set,Dev,Finance,Confidential,4,1,3,3,Azure SQL,US-East,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0322,Data Warehouse,Data Warehouse Network 322,Network,Dev,Manufacturing,Confidential,3,3,5,1,SaaS,On-prem DC,Azure,Local Accounts,Sample placeholder row; replace with real asset details.
+A0323,MES,MES Third Party 323,Third Party,Test,Finance,Public,1,1,3,3,AWS RDS,Factory,Azure,MFA,Sample placeholder row; replace with real asset details.
+A0324,ERP,ERP OT 324,OT,Test,Manufacturing,Public,2,2,1,2,OT network,On-prem DC,Azure,MFA,Sample placeholder row; replace with real asset details.
+A0325,MES,MES Infrastructure 325,Infrastructure,Dev,Data Platform,Confidential,3,1,4,2,N/A,EU-West,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0326,ERP,ERP Third Party 326,Third Party,Dev,Manufacturing,Internal,4,4,3,1,N/A,US-West,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0327,MES,MES Application 327,Application,Prod,Manufacturing,Public,5,3,3,1,OT network,EU-West,Azure,SSO,Sample placeholder row; replace with real asset details.
+A0328,Network Core,Network Core Application 328,Application,Test,Manufacturing,Restricted,1,4,5,2,N/A,US-East,Vendor Hosted,SSO,Sample placeholder row; replace with real asset details.
+A0329,Network Core,Network Core Database 329,Database,Test,IT Ops,Restricted,1,4,5,2,Azure SQL,On-prem DC,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0330,Endpoint Fleet,Endpoint Fleet Database 330,Database,Prod,Manufacturing,Confidential,2,4,4,3,On-prem,Factory,AWS,Service Principal,Sample placeholder row; replace with real asset details.
+A0331,ERP,ERP Data Set 331,Data Set,Test,Data Platform,Restricted,5,2,1,1,SaaS,On-prem DC,On-prem,MFA,Sample placeholder row; replace with real asset details.
+A0332,Email,Email Database 332,Database,Dev,Manufacturing,Confidential,1,2,5,1,Filesystem,US-West,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0333,Email,Email Data Set 333,Data Set,Prod,Security,Confidential,5,3,2,2,OT network,US-West,AWS,Certificate,Sample placeholder row; replace with real asset details.
+A0334,ERP,ERP Infrastructure 334,Infrastructure,Dev,IT Ops,Internal,2,4,4,2,OT network,US-West,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0335,Email,Email Application 335,Application,Test,Data Platform,Internal,2,4,1,1,Azure SQL,Factory,AWS,SSO,Sample placeholder row; replace with real asset details.
+A0336,Customer Portal,Customer Portal Network 336,Network,Dev,Product,Confidential,2,4,4,1,Azure SQL,US-West,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0337,Identity Platform,Identity Platform Application 337,Application,Dev,HR,Public,3,4,3,1,AWS RDS,Factory,AWS,Local Accounts,Sample placeholder row; replace with real asset details.
+A0338,Identity Platform,Identity Platform Network 338,Network,Prod,HR,Restricted,1,4,3,3,OT network,US-East,GCP,MFA,Sample placeholder row; replace with real asset details.
+A0339,Email,Email Data Set 339,Data Set,Test,Manufacturing,Restricted,4,2,5,2,Filesystem,EU-West,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0340,Identity Platform,Identity Platform OT 340,OT,Dev,IT Ops,Restricted,4,2,3,3,Azure SQL,Factory,On-prem,Local Accounts,Sample placeholder row; replace with real asset details.
+A0341,Endpoint Fleet,Endpoint Fleet Application 341,Application,Test,HR,Restricted,2,1,1,2,Filesystem,US-West,Azure,MFA,Sample placeholder row; replace with real asset details.
+A0342,Endpoint Fleet,Endpoint Fleet Database 342,Database,Test,IT Ops,Internal,2,3,3,3,OT network,Factory,Vendor Hosted,Local Accounts,Sample placeholder row; replace with real asset details.
+A0343,Endpoint Fleet,Endpoint Fleet Data Set 343,Data Set,Dev,Security,Public,5,4,4,1,On-prem,EU-West,On-prem,Service Principal,Sample placeholder row; replace with real asset details.
+A0344,Network Core,Network Core Third Party 344,Third Party,Test,Data Platform,Restricted,1,5,1,3,AWS RDS,US-East,On-prem,API Key,Sample placeholder row; replace with real asset details.
+A0345,SOC Tooling,SOC Tooling Data Set 345,Data Set,Prod,Manufacturing,Restricted,2,5,3,1,N/A,US-West,GCP,Certificate,Sample placeholder row; replace with real asset details.
+A0346,SOC Tooling,SOC Tooling Infrastructure 346,Infrastructure,Dev,Finance,Confidential,4,5,5,1,N/A,EU-West,Vendor Hosted,Certificate,Sample placeholder row; replace with real asset details.
+A0347,Email,Email OT 347,OT,Dev,Finance,Restricted,1,3,3,1,N/A,On-prem DC,Vendor Hosted,MFA,Sample placeholder row; replace with real asset details.
+A0348,Customer Portal,Customer Portal OT 348,OT,Prod,Data Platform,Confidential,2,4,4,1,SaaS,Factory,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0349,Network Core,Network Core Database 349,Database,Prod,Product,Restricted,2,2,3,1,Filesystem,US-East,Vendor Hosted,API Key,Sample placeholder row; replace with real asset details.
+A0350,SOC Tooling,SOC Tooling Infrastructure 350,Infrastructure,Prod,IT Ops,Confidential,4,5,1,2,Filesystem,US-West,Azure,MFA,Sample placeholder row; replace with real asset details.
